@@ -7,15 +7,18 @@
 //
 
 import UIKit
+import Firebase
+import ChameleonFramework
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        FIRApp.configure()
+        Chameleon.setGlobalThemeUsingPrimaryColor(FlatMint(), withContentStyle: UIContentStyle.Contrast)
         return true
     }
 

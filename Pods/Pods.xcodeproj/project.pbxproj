@@ -1,0 +1,838 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00967A34C0778275E41D1CBA32E398F8 /* UILabel+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = C42007479E9327C934E1013F9611F5B9 /* UILabel+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01C6F32401BCBE9FF9B3C095B031D92B /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = DB594637ED8AB207E3D75615AB869BBB /* UIColor+Chameleon.m */; };
+		097AE4014349090D14C6C5637F8A3464 /* ChameleonConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = D406C5A764E584A402098EA1A5420806 /* ChameleonConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1236ECB96A915EC617957A42838CDD7B /* ChameleonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = D84C60203F4E8CA6E101FEA35E6C5218 /* ChameleonConstants.m */; };
+		14166AE8334CDCEB4F4D8B069FBB554A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD25CA4A497622D5ABF4C433D79E4DE /* QuartzCore.framework */; };
+		15E113F19F49C0C0472242BD6E849A1B /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2AD478C57EE0816E7CE898FF8241F /* UIImage+ChameleonPrivate.m */; };
+		1AEFAEC8158BEB8DBDB243AB37866E6D /* Pods-Carfan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0D853BD9648943487F358F3B8E0AED3 /* Pods-Carfan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24E7D20FD204AF7AACB30A3B7C16388C /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 7821FD5A46AE4AB49A406DF7B050DC76 /* NSArray+Chameleon.m */; };
+		358DA1CCAA3D40BCB1965FA15333F552 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */; };
+		4194C2418EEF62E01342A820B5EF9C71 /* UIColor+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 94105E39BBB5FCC036B66BB8664F4B96 /* UIColor+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46BD1A9D810F01F53BFFC3490E258951 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */; };
+		4A0E71E9E2BD86AA8CB6077A95CDC034 /* ChameleonEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 40D94AB894F5BB11DF2D1B981CDECCA8 /* ChameleonEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C6CEBA607BEA909A9CCB80C6AB6AE88 /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C0EA20071E46E1BCC479815F349D11 /* UINavigationController+Chameleon.m */; };
+		5177B3B95985D0A2CF8376A6FD4488C2 /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = D967F841B1DE600256E761417A1EA3BE /* UIViewController+Chameleon.m */; };
+		5ABAC031D5DB991D13A12F0CD6F6F1F2 /* Pods-Carfan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA8EE24F33A22A8452254A5401D239DF /* Pods-Carfan-dummy.m */; };
+		5CCC419BB423F48192FBA3C7D7D6B7DA /* ChameleonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 19000E454A87439B85A2734FA864A108 /* ChameleonMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64C89D98B9D3B9C57971E1E137233980 /* ChameleonFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 18236F7F87D73051EFFF1F09F4EC8624 /* ChameleonFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FFDAD2F800BC27FCF40E92B71D88CF3 /* UINavigationController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = B1097DD669ADC2C525C1F96615104335 /* UINavigationController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		738E4E0555CE3C233C400AE87B9887E4 /* Chameleon_.h in Headers */ = {isa = PBXBuildFile; fileRef = BF7B806F44EDB0301060DD248D4724B6 /* Chameleon_.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7708E07C85FF6C2BC400C15CCDB7EB1C /* UIImage+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = DDA33D70850585C9BA762B4A91AE8692 /* UIImage+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EC9330EBDF327051B12E42AE8741B6E /* Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = C8E06CFF95EA5312F465C6C8C5632458 /* Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B365A3A01EF135485F43412F83C7C65 /* Chameleon_.m in Sources */ = {isa = PBXBuildFile; fileRef = E16FAECD0956459939C4BC8AC9B37DA5 /* Chameleon_.m */; };
+		9B3EEA3CFA303B0D28A8034C16BFDA15 /* UILabel+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 307CEFD90C6DFC83C311608ECAD53B1B /* UILabel+Chameleon.m */; };
+		9CD81585A78B44D377171FCEDEFAA830 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE7FD0E16F3FACCFE19068F1E872D9F /* CoreGraphics.framework */; };
+		A2AC9FD0F42F638C48E72F88E8BC4C80 /* ChameleonShorthand.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBB5688BCB7587B8212E4ED11C38B4B /* ChameleonShorthand.swift */; };
+		A46A3EAB602FB4840C5AB8493F86AE4F /* UIButton+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = FC8C12FB60966878F6F876608004407D /* UIButton+Chameleon.m */; };
+		AF9FDFE994A206795619E469B68C614E /* UIViewController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DD0F5F794933ECC11512391AB94E01E /* UIViewController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B71968ADC80D9CA74C57959B609E46F6 /* UIAppearance+Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F224056B99328A6CD62F9546C4B0963 /* UIAppearance+Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C08DCA5180F1A15542694844C66B0EFB /* UIView+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3863434539B0F8178778A647F9FEB9 /* UIView+ChameleonPrivate.m */; };
+		C8F191C4FA3530AAEBAD2DDE2604DCF2 /* UIButton+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 378C51851618A1B62CB490E634830820 /* UIButton+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFB8C96C7D3F7331E409D296466B923A /* UIColor+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FF428B6019E345183B3BF8163A81D25 /* UIColor+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2B61A78124FCB785E11A98BDD0471BC /* UIAppearance+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = 629774B4438D9A00F8DF94250A788D85 /* UIAppearance+Swift.m */; };
+		D36BC9B0C925A5244E16EE70E4809EE6 /* UIView+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C49A2EA401B9AA54D0020D63598BCEE /* UIView+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0AFA39DA4A01D8A8FE3D4EC76250F46 /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 384AD908D7E940DD53BD317267C2CF49 /* UIColor+ChameleonPrivate.m */; };
+		E0C720836FBA4E75E3E57069219B7107 /* ChameleonFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5885C8BC16CE2648C3A9353B6D38E9C /* ChameleonFramework-dummy.m */; };
+		E197C5199E24876F592836465AF6B2F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED04AE2201316F6590E7AD9952706C7B /* UIKit.framework */; };
+		FF4A8EFE1154C1FFD58B48E978298871 /* NSArray+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = AACE106A346CFFCE10B51DCB77E487DE /* NSArray+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50897619A70B2E87307DFAC8BD82BC8F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5172ACAB7FEA22813859DC97CA0AA16F;
+			remoteInfo = ChameleonFramework;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09AEECAC648B1F9B6EBD92815C28DBF1 /* Pods-Carfan-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Carfan-frameworks.sh"; sourceTree = "<group>"; };
+		0DD25CA4A497622D5ABF4C433D79E4DE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		0FF428B6019E345183B3BF8163A81D25 /* UIColor+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Chameleon.h"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		166FCE4BBD749A8F2CE68456C0E5A135 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		18236F7F87D73051EFFF1F09F4EC8624 /* ChameleonFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-umbrella.h"; sourceTree = "<group>"; };
+		19000E454A87439B85A2734FA864A108 /* ChameleonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonMacros.h; path = "Pod/Classes/Objective-C/ChameleonMacros.h"; sourceTree = "<group>"; };
+		1FAD8D6332CBF19040304B186563EA02 /* Pods_Carfan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Carfan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28EE696E430A04D55E4641535B324121 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		307CEFD90C6DFC83C311608ECAD53B1B /* UILabel+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Chameleon.m"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.m"; sourceTree = "<group>"; };
+		309947A00615CCC62733E26C76632BE3 /* Pods-Carfan-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Carfan-resources.sh"; sourceTree = "<group>"; };
+		378C51851618A1B62CB490E634830820 /* UIButton+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Chameleon.h"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.h"; sourceTree = "<group>"; };
+		384AD908D7E940DD53BD317267C2CF49 /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		3C39783C7E057F3AFE4BD230F52FF785 /* ChameleonFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-prefix.pch"; sourceTree = "<group>"; };
+		3F80C5BEEAA8C6763A1E505D7453358D /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		40D94AB894F5BB11DF2D1B981CDECCA8 /* ChameleonEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonEnums.h; path = "Pod/Classes/Objective-C/ChameleonEnums.h"; sourceTree = "<group>"; };
+		4AA2AD478C57EE0816E7CE898FF8241F /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		4AE7FD0E16F3FACCFE19068F1E872D9F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		5158983AF04B4D06EA8A3CC1F291EC61 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		5C49A2EA401B9AA54D0020D63598BCEE /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		629774B4438D9A00F8DF94250A788D85 /* UIAppearance+Swift.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAppearance+Swift.m"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.m"; sourceTree = "<group>"; };
+		6384546B9D783D494DD590680CF5FAFE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6395930AAE3D42BD69CEB07AE2B86C69 /* Pods-Carfan-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Carfan-acknowledgements.plist"; sourceTree = "<group>"; };
+		646A71F4DEE967F5C79D399F4AED4358 /* GoogleIPhoneUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleIPhoneUtilities.framework; path = Frameworks/GoogleIPhoneUtilities.framework; sourceTree = "<group>"; };
+		6DD0F5F794933ECC11512391AB94E01E /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Chameleon.h"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.h"; sourceTree = "<group>"; };
+		7821FD5A46AE4AB49A406DF7B050DC76 /* NSArray+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Chameleon.m"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.m"; sourceTree = "<group>"; };
+		7CA82C4B7B4812230FF96E67AA5EED8A /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Headers/Public/FIRInstanceID.h; sourceTree = "<group>"; };
+		7E65D6A04F219288C8B47B54E846CEE6 /* Pods-Carfan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Carfan.modulemap"; sourceTree = "<group>"; };
+		7F224056B99328A6CD62F9546C4B0963 /* UIAppearance+Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAppearance+Swift.h"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.h"; sourceTree = "<group>"; };
+		8341E52790748FBFEFD4B9527B249962 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		92C0EA20071E46E1BCC479815F349D11 /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Chameleon.m"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
+		94105E39BBB5FCC036B66BB8664F4B96 /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		98CC571718468C29DE1D0BEC6D5A762D /* ChameleonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChameleonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FD0B3BDFAAE20BFE75974554EEAC966 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		A65375B6A69427EBDBBF7019B9395A9B /* FirebaseRemoteConfig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseRemoteConfig.framework; path = Frameworks/FirebaseRemoteConfig.framework; sourceTree = "<group>"; };
+		AACE106A346CFFCE10B51DCB77E487DE /* NSArray+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Chameleon.h"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.h"; sourceTree = "<group>"; };
+		ADBB5688BCB7587B8212E4ED11C38B4B /* ChameleonShorthand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChameleonShorthand.swift; path = Pod/Classes/Swift/ChameleonShorthand.swift; sourceTree = "<group>"; };
+		B1097DD669ADC2C525C1F96615104335 /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Chameleon.h"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
+		B5885C8BC16CE2648C3A9353B6D38E9C /* ChameleonFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChameleonFramework-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF7B806F44EDB0301060DD248D4724B6 /* Chameleon_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon_.h; path = "Pod/Classes/Objective-C/Chameleon_.h"; sourceTree = "<group>"; };
+		C42007479E9327C934E1013F9611F5B9 /* UILabel+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Chameleon.h"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.h"; sourceTree = "<group>"; };
+		C8E06CFF95EA5312F465C6C8C5632458 /* Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon.h; path = "Pod/Classes/Objective-C/Chameleon.h"; sourceTree = "<group>"; };
+		CBAD8470D22A64E549D89BDA7B0F6716 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D28E8892DE16D68B1C33DC32843A4369 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		D406C5A764E584A402098EA1A5420806 /* ChameleonConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonConstants.h; path = "Pod/Classes/Objective-C/ChameleonConstants.h"; sourceTree = "<group>"; };
+		D6E544E8AFF34B6C588B73B736738B84 /* ChameleonFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ChameleonFramework.modulemap; sourceTree = "<group>"; };
+		D84C60203F4E8CA6E101FEA35E6C5218 /* ChameleonConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChameleonConstants.m; path = "Pod/Classes/Objective-C/ChameleonConstants.m"; sourceTree = "<group>"; };
+		D881E1FDA6FB47D71C64BB03102A8215 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		D967F841B1DE600256E761417A1EA3BE /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Chameleon.m"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.m"; sourceTree = "<group>"; };
+		DB594637ED8AB207E3D75615AB869BBB /* UIColor+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Chameleon.m"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.m"; sourceTree = "<group>"; };
+		DDA33D70850585C9BA762B4A91AE8692 /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		E0D853BD9648943487F358F3B8E0AED3 /* Pods-Carfan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Carfan-umbrella.h"; sourceTree = "<group>"; };
+		E16FAECD0956459939C4BC8AC9B37DA5 /* Chameleon_.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Chameleon_.m; path = "Pod/Classes/Objective-C/Chameleon_.m"; sourceTree = "<group>"; };
+		EA8EE24F33A22A8452254A5401D239DF /* Pods-Carfan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Carfan-dummy.m"; sourceTree = "<group>"; };
+		ED04AE2201316F6590E7AD9952706C7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F026EE61A479679F79E31EEC09E3185F /* Pods-Carfan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Carfan.debug.xcconfig"; sourceTree = "<group>"; };
+		F32A8316D805C16ADE906D4B548C63A7 /* Pods-Carfan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Carfan.release.xcconfig"; sourceTree = "<group>"; };
+		F5CECCB4C047BC03A5C223680B8BFE46 /* ChameleonFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChameleonFramework.xcconfig; sourceTree = "<group>"; };
+		F7A75F26EA06007FCE94BAE5AD2D4BBC /* Pods-Carfan-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Carfan-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FB42A9AFDCB94B238116DF35A9891D34 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Headers/Firebase.h; sourceTree = "<group>"; };
+		FC8C12FB60966878F6F876608004407D /* UIButton+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Chameleon.m"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.m"; sourceTree = "<group>"; };
+		FF3863434539B0F8178778A647F9FEB9 /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6BE41096FA2C2F7CB108EAF4A91E2390 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				358DA1CCAA3D40BCB1965FA15333F552 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC1A73E30C8322A70D5DCD63B04CAE84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CD81585A78B44D377171FCEDEFAA830 /* CoreGraphics.framework in Frameworks */,
+				46BD1A9D810F01F53BFFC3490E258951 /* Foundation.framework in Frameworks */,
+				14166AE8334CDCEB4F4D8B069FBB554A /* QuartzCore.framework in Frameworks */,
+				E197C5199E24876F592836465AF6B2F1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0260E658BAFBA0ACB79FB13B60E7E96B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3059291D2D1CD98FF0ADCDB0C3364198 /* ChameleonFramework */,
+				D4EA6AA628C81DA2A19CD6870FC8F4C4 /* Firebase */,
+				7A1A53B1965219BA62B9F9C30413873A /* FirebaseAnalytics */,
+				D8CD790BC2E22C945C534D6648DD0E6C /* FirebaseAuth */,
+				266EC837EBAD5F316BA5BFE1E83E44E0 /* FirebaseDatabase */,
+				D6E2A27D0011DC7BAA90F006C64206C9 /* FirebaseInstanceID */,
+				192B2AEDCC9E5A091044A858BE2CEE9B /* FirebaseRemoteConfig */,
+				E5989A788D4A55528BD7878D24A605A5 /* GoogleInterchangeUtilities */,
+				5A46ECD3EB4B9F545E9D5723C91E15A8 /* GoogleIPhoneUtilities */,
+				A796D13CD52F503A4A0A4F70957E6EB9 /* GoogleNetworkingUtilities */,
+				D02C47AF5CDC04DEEF3C72B83E5CAA95 /* GoogleSymbolUtilities */,
+				D4D55E553AE45F143C4753BF8E0A4AA0 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0E6C895DB7A7304162E09FC2D05D3E41 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				C8E06CFF95EA5312F465C6C8C5632458 /* Chameleon.h */,
+				BF7B806F44EDB0301060DD248D4724B6 /* Chameleon_.h */,
+				E16FAECD0956459939C4BC8AC9B37DA5 /* Chameleon_.m */,
+				D406C5A764E584A402098EA1A5420806 /* ChameleonConstants.h */,
+				D84C60203F4E8CA6E101FEA35E6C5218 /* ChameleonConstants.m */,
+				40D94AB894F5BB11DF2D1B981CDECCA8 /* ChameleonEnums.h */,
+				19000E454A87439B85A2734FA864A108 /* ChameleonMacros.h */,
+				AACE106A346CFFCE10B51DCB77E487DE /* NSArray+Chameleon.h */,
+				7821FD5A46AE4AB49A406DF7B050DC76 /* NSArray+Chameleon.m */,
+				7F224056B99328A6CD62F9546C4B0963 /* UIAppearance+Swift.h */,
+				629774B4438D9A00F8DF94250A788D85 /* UIAppearance+Swift.m */,
+				378C51851618A1B62CB490E634830820 /* UIButton+Chameleon.h */,
+				FC8C12FB60966878F6F876608004407D /* UIButton+Chameleon.m */,
+				0FF428B6019E345183B3BF8163A81D25 /* UIColor+Chameleon.h */,
+				DB594637ED8AB207E3D75615AB869BBB /* UIColor+Chameleon.m */,
+				94105E39BBB5FCC036B66BB8664F4B96 /* UIColor+ChameleonPrivate.h */,
+				384AD908D7E940DD53BD317267C2CF49 /* UIColor+ChameleonPrivate.m */,
+				DDA33D70850585C9BA762B4A91AE8692 /* UIImage+ChameleonPrivate.h */,
+				4AA2AD478C57EE0816E7CE898FF8241F /* UIImage+ChameleonPrivate.m */,
+				C42007479E9327C934E1013F9611F5B9 /* UILabel+Chameleon.h */,
+				307CEFD90C6DFC83C311608ECAD53B1B /* UILabel+Chameleon.m */,
+				B1097DD669ADC2C525C1F96615104335 /* UINavigationController+Chameleon.h */,
+				92C0EA20071E46E1BCC479815F349D11 /* UINavigationController+Chameleon.m */,
+				5C49A2EA401B9AA54D0020D63598BCEE /* UIView+ChameleonPrivate.h */,
+				FF3863434539B0F8178778A647F9FEB9 /* UIView+ChameleonPrivate.m */,
+				6DD0F5F794933ECC11512391AB94E01E /* UIViewController+Chameleon.h */,
+				D967F841B1DE600256E761417A1EA3BE /* UIViewController+Chameleon.m */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9203A0FF197B8764CD853B6EE3A159E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15E8F5AEF925DA36A0EFDE0C9568B516 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBAD8470D22A64E549D89BDA7B0F6716 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		192B2AEDCC9E5A091044A858BE2CEE9B /* FirebaseRemoteConfig */ = {
+			isa = PBXGroup;
+			children = (
+				4E0CE1B8951BB8F52664F6F658CC5616 /* Frameworks */,
+			);
+			path = FirebaseRemoteConfig;
+			sourceTree = "<group>";
+		};
+		1C94F6F57DAFB2411FD263AD88DE2B3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5158983AF04B4D06EA8A3CC1F291EC61 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		24DA33702BDD7848F7B24347AA8352C7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF1E44A94F1DBC1347F70C0EC75DADC1 /* Pods-Carfan */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		266EC837EBAD5F316BA5BFE1E83E44E0 /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				15E8F5AEF925DA36A0EFDE0C9568B516 /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		2E934489FB1DAD6C7DA302BCFB12865D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98CC571718468C29DE1D0BEC6D5A762D /* ChameleonFramework.framework */,
+				1FAD8D6332CBF19040304B186563EA02 /* Pods_Carfan.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3059291D2D1CD98FF0ADCDB0C3364198 /* ChameleonFramework */ = {
+			isa = PBXGroup;
+			children = (
+				0E6C895DB7A7304162E09FC2D05D3E41 /* Default */,
+				672640CD2D4CA3E1B40025DA926B6EE8 /* Support Files */,
+				881220ADCFBE61AA3D08D2B137608CAF /* Swift */,
+			);
+			path = ChameleonFramework;
+			sourceTree = "<group>";
+		};
+		41F03AA77A51D8AC35051E952E9D913F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F80C5BEEAA8C6763A1E505D7453358D /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E0CE1B8951BB8F52664F6F658CC5616 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A65375B6A69427EBDBBF7019B9395A9B /* FirebaseRemoteConfig.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A46ECD3EB4B9F545E9D5723C91E15A8 /* GoogleIPhoneUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				75766DA1BC789123F2B167AC3E323D42 /* Frameworks */,
+			);
+			path = GoogleIPhoneUtilities;
+			sourceTree = "<group>";
+		};
+		5FC9E2CF791CD582E717C34D4F945FF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D881E1FDA6FB47D71C64BB03102A8215 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		672640CD2D4CA3E1B40025DA926B6EE8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6E544E8AFF34B6C588B73B736738B84 /* ChameleonFramework.modulemap */,
+				F5CECCB4C047BC03A5C223680B8BFE46 /* ChameleonFramework.xcconfig */,
+				B5885C8BC16CE2648C3A9353B6D38E9C /* ChameleonFramework-dummy.m */,
+				3C39783C7E057F3AFE4BD230F52FF785 /* ChameleonFramework-prefix.pch */,
+				18236F7F87D73051EFFF1F09F4EC8624 /* ChameleonFramework-umbrella.h */,
+				28EE696E430A04D55E4641535B324121 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ChameleonFramework";
+			sourceTree = "<group>";
+		};
+		74847CE9069F27B9D0CBA1E10A8DC0C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8341E52790748FBFEFD4B9527B249962 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75766DA1BC789123F2B167AC3E323D42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				646A71F4DEE967F5C79D399F4AED4358 /* GoogleIPhoneUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A1A53B1965219BA62B9F9C30413873A /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				1C94F6F57DAFB2411FD263AD88DE2B3B /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				0260E658BAFBA0ACB79FB13B60E7E96B /* Pods */,
+				2E934489FB1DAD6C7DA302BCFB12865D /* Products */,
+				24DA33702BDD7848F7B24347AA8352C7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		881220ADCFBE61AA3D08D2B137608CAF /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				ADBB5688BCB7587B8212E4ED11C38B4B /* ChameleonShorthand.swift */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		8DD7BF1C9BC7D39F2E82342EA875F0D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D28E8892DE16D68B1C33DC32843A4369 /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A796D13CD52F503A4A0A4F70957E6EB9 /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				8DD7BF1C9BC7D39F2E82342EA875F0D4 /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		A9203A0FF197B8764CD853B6EE3A159E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4AE7FD0E16F3FACCFE19068F1E872D9F /* CoreGraphics.framework */,
+				CE437620300D81EED04DF8C0301AF9D9 /* Foundation.framework */,
+				0DD25CA4A497622D5ABF4C433D79E4DE /* QuartzCore.framework */,
+				ED04AE2201316F6590E7AD9952706C7B /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ABC35C7E7B20EF46FD2631288EE1752F /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				FB42A9AFDCB94B238116DF35A9891D34 /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		AF1E44A94F1DBC1347F70C0EC75DADC1 /* Pods-Carfan */ = {
+			isa = PBXGroup;
+			children = (
+				6384546B9D783D494DD590680CF5FAFE /* Info.plist */,
+				7E65D6A04F219288C8B47B54E846CEE6 /* Pods-Carfan.modulemap */,
+				F7A75F26EA06007FCE94BAE5AD2D4BBC /* Pods-Carfan-acknowledgements.markdown */,
+				6395930AAE3D42BD69CEB07AE2B86C69 /* Pods-Carfan-acknowledgements.plist */,
+				EA8EE24F33A22A8452254A5401D239DF /* Pods-Carfan-dummy.m */,
+				09AEECAC648B1F9B6EBD92815C28DBF1 /* Pods-Carfan-frameworks.sh */,
+				309947A00615CCC62733E26C76632BE3 /* Pods-Carfan-resources.sh */,
+				E0D853BD9648943487F358F3B8E0AED3 /* Pods-Carfan-umbrella.h */,
+				F026EE61A479679F79E31EEC09E3185F /* Pods-Carfan.debug.xcconfig */,
+				F32A8316D805C16ADE906D4B548C63A7 /* Pods-Carfan.release.xcconfig */,
+			);
+			name = "Pods-Carfan";
+			path = "Target Support Files/Pods-Carfan";
+			sourceTree = "<group>";
+		};
+		BE14A137B18731BD4B8983E5BF762DB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9FD0B3BDFAAE20BFE75974554EEAC966 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA552FBB4CDD01F11710B857173F1A76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				166FCE4BBD749A8F2CE68456C0E5A135 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D02C47AF5CDC04DEEF3C72B83E5CAA95 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				5FC9E2CF791CD582E717C34D4F945FF9 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		D4D55E553AE45F143C4753BF8E0A4AA0 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				BE14A137B18731BD4B8983E5BF762DB2 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		D4EA6AA628C81DA2A19CD6870FC8F4C4 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				ABC35C7E7B20EF46FD2631288EE1752F /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		D6E2A27D0011DC7BAA90F006C64206C9 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				7CA82C4B7B4812230FF96E67AA5EED8A /* FIRInstanceID.h */,
+				CA552FBB4CDD01F11710B857173F1A76 /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		D8CD790BC2E22C945C534D6648DD0E6C /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				41F03AA77A51D8AC35051E952E9D913F /* Frameworks */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		E5989A788D4A55528BD7878D24A605A5 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				74847CE9069F27B9D0CBA1E10A8DC0C1 /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3BEF2FF2B288085ECC50DD9E69F4F29C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AEFAEC8158BEB8DBDB243AB37866E6D /* Pods-Carfan-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59890BED3AF6CEBA2D3BC9A5C45EFBA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC9330EBDF327051B12E42AE8741B6E /* Chameleon.h in Headers */,
+				738E4E0555CE3C233C400AE87B9887E4 /* Chameleon_.h in Headers */,
+				097AE4014349090D14C6C5637F8A3464 /* ChameleonConstants.h in Headers */,
+				4A0E71E9E2BD86AA8CB6077A95CDC034 /* ChameleonEnums.h in Headers */,
+				64C89D98B9D3B9C57971E1E137233980 /* ChameleonFramework-umbrella.h in Headers */,
+				5CCC419BB423F48192FBA3C7D7D6B7DA /* ChameleonMacros.h in Headers */,
+				FF4A8EFE1154C1FFD58B48E978298871 /* NSArray+Chameleon.h in Headers */,
+				B71968ADC80D9CA74C57959B609E46F6 /* UIAppearance+Swift.h in Headers */,
+				C8F191C4FA3530AAEBAD2DDE2604DCF2 /* UIButton+Chameleon.h in Headers */,
+				CFB8C96C7D3F7331E409D296466B923A /* UIColor+Chameleon.h in Headers */,
+				4194C2418EEF62E01342A820B5EF9C71 /* UIColor+ChameleonPrivate.h in Headers */,
+				7708E07C85FF6C2BC400C15CCDB7EB1C /* UIImage+ChameleonPrivate.h in Headers */,
+				00967A34C0778275E41D1CBA32E398F8 /* UILabel+Chameleon.h in Headers */,
+				6FFDAD2F800BC27FCF40E92B71D88CF3 /* UINavigationController+Chameleon.h in Headers */,
+				D36BC9B0C925A5244E16EE70E4809EE6 /* UIView+ChameleonPrivate.h in Headers */,
+				AF9FDFE994A206795619E469B68C614E /* UIViewController+Chameleon.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5172ACAB7FEA22813859DC97CA0AA16F /* ChameleonFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48E21BC30675BE10E5FB0192B03002EA /* Build configuration list for PBXNativeTarget "ChameleonFramework" */;
+			buildPhases = (
+				A007306A9F7EAF30B21BFDB4E741628B /* Sources */,
+				FC1A73E30C8322A70D5DCD63B04CAE84 /* Frameworks */,
+				59890BED3AF6CEBA2D3BC9A5C45EFBA4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChameleonFramework;
+			productName = ChameleonFramework;
+			productReference = 98CC571718468C29DE1D0BEC6D5A762D /* ChameleonFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D37438D4CE3938AF51B1B1C97F782334 /* Pods-Carfan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8265D222F7CB78565CA9ABD43310BBC /* Build configuration list for PBXNativeTarget "Pods-Carfan" */;
+			buildPhases = (
+				EBF733F08F9537CA9F4D8C6DA0E38662 /* Sources */,
+				6BE41096FA2C2F7CB108EAF4A91E2390 /* Frameworks */,
+				3BEF2FF2B288085ECC50DD9E69F4F29C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C20E73FCD0A0CAF403504804F25CAB3 /* PBXTargetDependency */,
+			);
+			name = "Pods-Carfan";
+			productName = "Pods-Carfan";
+			productReference = 1FAD8D6332CBF19040304B186563EA02 /* Pods_Carfan.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2E934489FB1DAD6C7DA302BCFB12865D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5172ACAB7FEA22813859DC97CA0AA16F /* ChameleonFramework */,
+				D37438D4CE3938AF51B1B1C97F782334 /* Pods-Carfan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A007306A9F7EAF30B21BFDB4E741628B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B365A3A01EF135485F43412F83C7C65 /* Chameleon_.m in Sources */,
+				1236ECB96A915EC617957A42838CDD7B /* ChameleonConstants.m in Sources */,
+				E0C720836FBA4E75E3E57069219B7107 /* ChameleonFramework-dummy.m in Sources */,
+				A2AC9FD0F42F638C48E72F88E8BC4C80 /* ChameleonShorthand.swift in Sources */,
+				24E7D20FD204AF7AACB30A3B7C16388C /* NSArray+Chameleon.m in Sources */,
+				D2B61A78124FCB785E11A98BDD0471BC /* UIAppearance+Swift.m in Sources */,
+				A46A3EAB602FB4840C5AB8493F86AE4F /* UIButton+Chameleon.m in Sources */,
+				01C6F32401BCBE9FF9B3C095B031D92B /* UIColor+Chameleon.m in Sources */,
+				E0AFA39DA4A01D8A8FE3D4EC76250F46 /* UIColor+ChameleonPrivate.m in Sources */,
+				15E113F19F49C0C0472242BD6E849A1B /* UIImage+ChameleonPrivate.m in Sources */,
+				9B3EEA3CFA303B0D28A8034C16BFDA15 /* UILabel+Chameleon.m in Sources */,
+				4C6CEBA607BEA909A9CCB80C6AB6AE88 /* UINavigationController+Chameleon.m in Sources */,
+				C08DCA5180F1A15542694844C66B0EFB /* UIView+ChameleonPrivate.m in Sources */,
+				5177B3B95985D0A2CF8376A6FD4488C2 /* UIViewController+Chameleon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF733F08F9537CA9F4D8C6DA0E38662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABAC031D5DB991D13A12F0CD6F6F1F2 /* Pods-Carfan-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C20E73FCD0A0CAF403504804F25CAB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChameleonFramework;
+			target = 5172ACAB7FEA22813859DC97CA0AA16F /* ChameleonFramework */;
+			targetProxy = 50897619A70B2E87307DFAC8BD82BC8F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A74EEC168B2AAA21C2BF9BF0BE1DF3DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5CECCB4C047BC03A5C223680B8BFE46 /* ChameleonFramework.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChameleonFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ChameleonFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BCD08B44EC657AE44D35629746B6D0B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F32A8316D805C16ADE906D4B548C63A7 /* Pods-Carfan.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Carfan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Carfan/Pods-Carfan.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Carfan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3D9BA1445AC242CFA9771307A17DBCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5CECCB4C047BC03A5C223680B8BFE46 /* ChameleonFramework.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChameleonFramework/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ChameleonFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E26A6D49E039FF9962B9869C8F0E097F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F026EE61A479679F79E31EEC09E3185F /* Pods-Carfan.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Carfan/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Carfan/Pods-Carfan.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_Carfan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48E21BC30675BE10E5FB0192B03002EA /* Build configuration list for PBXNativeTarget "ChameleonFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D9BA1445AC242CFA9771307A17DBCB /* Debug */,
+				A74EEC168B2AAA21C2BF9BF0BE1DF3DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8265D222F7CB78565CA9ABD43310BBC /* Build configuration list for PBXNativeTarget "Pods-Carfan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E26A6D49E039FF9962B9869C8F0E097F /* Debug */,
+				BCD08B44EC657AE44D35629746B6D0B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
