@@ -12,8 +12,8 @@ import ChameleonFramework
 
 class ViewController: UIViewController {
     
-    @IBOutlet var email: UITextField!
-    @IBOutlet var password: UITextField!
+    @IBOutlet var emailInput: UITextField!
+    @IBOutlet var passwordInput: UITextField!
     
     var remoteConfig: FIRRemoteConfig!
 
@@ -47,7 +47,7 @@ class ViewController: UIViewController {
     
     @IBAction func login() {
         
-        FIRAuth.auth()?.signInWithEmail(email.text!, password: password.text!) { (user, error) in
+        FIRAuth.auth()?.signInWithEmail(emailInput.text!, password: passwordInput.text!) { (user, error) in
             
             if let error = error?.domain {
                 print("An error occurred: \(error)")
@@ -61,7 +61,7 @@ class ViewController: UIViewController {
     
     @IBAction func createUser() {
         
-        FIRAuth.auth()?.createUserWithEmail(email.text!, password: password.text!) { (user, error) in
+        FIRAuth.auth()?.createUserWithEmail(emailInput.text!, password: passwordInput.text!) { (user, error) in
             
             if let error = error?.domain {
                 print("Failed to create user: \(error)")
